@@ -37,14 +37,12 @@ module.exports = function(router) {
         uploader.get(req, res, (err, obj) => {
             res.send(JSON.stringify(obj));
         });
-
     });
 
     router.post('/upload', (req, res) => {
         uploader.post(req, res, (err, obj) => {
             res.send(JSON.stringify(obj));
         });
-
     });
 
     router.delete('/uploaded/files/:name', (req, res) => {
