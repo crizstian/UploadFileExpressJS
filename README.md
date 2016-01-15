@@ -1,18 +1,4 @@
-Expressjs and jQuery File Upload
-=================
+# Uploading Files Using ExpressJS 
 
-An example consuming ```blueimp-file-upload-expressjs``` node module
-
-Demo : http://expressjs-fileupload.cloudno.de/
-
-Tutorial: http://thejackalofjavascript.com/uploading-files-made-fun
-
-Install
--------
-
-* Download or clone this repo
-* run ```npm install```
-* run ```node bin/www```
-
-for debug messages
-* run ```DEBUG=express:* node app.js```
+An example consuming the package ```blueimp-file-upload-expressjs``` node module
+for uploading files
